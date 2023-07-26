@@ -1,0 +1,43 @@
+* {
+
+}
+
+body {
+    background-color: white;
+    color: whitesmoke;
+    font-size: 2rem;
+    text-transform: uppercase;
+    
+}
+
+main {
+    background-color: rgb(28, 28, 28);
+    font-size: 1rem;
+    padding: 1rem;
+    text-transform: none;
+    
+}
+
+h1 {
+    color: black;
+    font-style: bold;
+    text-align: center; 
+}
+
+h2 {
+    text-decoration: underline lightgray;
+}
+
+.customArticle {
+    font-style: italic;
+}
+
+.customColor {
+    color: aqua;
+}
+
+
+p {
+    text-transform: none;
+    color: lightgray;
+}
