@@ -1,11 +1,13 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; /* With this property 'padding' and 'border' are included in an element's total width and height */
 }
 
 body {
     min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
 }
 
 h1 {
@@ -17,9 +19,12 @@ h1 {
 
 main {
     font-size: 2rem;
+    border: 2px dashed blue;
+    width: 50vw;
+    background-color: aqua;
 }
 
 p {
     font-size: 2rem;
-    width: 40ch;
+    width: 40ch; /* How many Characters per line */
 }
