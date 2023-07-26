@@ -1,0 +1,56 @@
+/* * { */
+    /* margin: 0; */
+    /* padding: 0; */
+    /* box-sizing: border-box; */ /* With this property 'padding' and 'border' are included in an element's total width and height */
+/* } */
+
+
+/* h1 { */
+    /* border: 2px dashed red; */
+    /* width: 50%; */
+    /* font-size: 3rem; */
+    /* padding: 0.5em; */
+/* } */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* With this property 'padding' and 'border' are included in an element's total width and height */
+}
+
+.bodyContainer {
+    border: 2px dotted rgb(0, 17, 255);
+}
+
+.container {
+    border: 2px dashed red;
+    font-size: 1.5rem;
+    /* padding: 1em; */
+    margin: 1em 1em 1em 1em;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    
+}
+
+
+
+p {
+    border: 2px dotted rgb(0, 17, 255);
+    padding: 1em;  /* 1em is equal to the parent fontsize */
+    margin: 1em 1em 1em 1em;
+}
+
+.circle {
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    outline: 2px solid rgb(0, 17, 255);
+    outline-offset: -1em;
+    margin: 1em auto;
+    border-radius: 50%;
+    font-size: small;
+}
