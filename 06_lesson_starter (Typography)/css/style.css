@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+
+body {
+    padding: 15%;
+    font-size: 2rem;
+
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+
+    text-transform: capitalize;
+    text-align: justify;
+    
+    line-height: 1.5em;
+    letter-spacing: 0.112358em; 
+    word-spacing: 0.112358em;
+
+    font-weight: normal;
+}
+
+input, button {
+    font: inherit;
+    /* text-transform: capitalize;
+    text-align: justify;
+    
+    line-height: 1.5em;
+    letter-spacing: 0.112358em;  */
+}
+
+p {
+    text-transform: capitalize;
+    /* text-align: justify;
+    text-indent: 2em;
+    
+    line-height: 1.5em;
+    letter-spacing: 0.112358em; */
+}
+
+span {
+    text-decoration: line-through;
+    font-weight: bold;
+}
+
+h1 {
+    font-weight: bold;
+    line-height: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
